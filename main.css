@@ -1,0 +1,50 @@
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    margin: 0
+}
+
+.titulo {
+    border-bottom-style: groove;
+    margin-bottom: 5rem;
+  }
+
+.titulo_tabla {
+    border-bottom-style: groove;
+    text-align-last: center;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+.col_pag {
+    height: 400px; /*tamaño específico*/
+}
+
+#tabla {
+    font-size: 1.2rem;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0.1em; 
+    font-size: 1.2rem !important;
+}
+
+body {
+    font-size: 22px;
+    background: url(media/fondo.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 1200px) {
+    .contenido {
+        justify-content: space-around;
+    }
+
+}
